@@ -16,6 +16,7 @@ Oh, and I also like to write press-releases in what I call "Oprah-speak" for mai
 Once the project moves into development, the press release can be used as a touchstone; a guiding light. The product team can ask themselves, "Are we building what is in the press release?" If they find they're spending time building things that aren't in the press release (overbuilding), they need to ask themselves why. This keeps product development focused on achieving the customer benefits and not building extraneous stuff that takes longer to build, takes resources to maintain, and doesn't provide real customer benefit (at least not enough to warrant inclusion in the press release).
  -->
  
+ 
 ## Heading ##
   > Dungeon Master Helper
 
@@ -23,10 +24,10 @@ Once the project moves into development, the press release can be used as a touc
   > A campaign management tool for dungeon masters and tabletop enthusiasts! 
 
 ## Summary ##
-  > 
+  > An app that help table top gamers and DnD players get on the same page before diving back into the beloved world they've created!
 
 ## Problem ##
-  > Ever had a compelling DnD adventure with all your friends, totally into the moment, but ah! It's late / dog is hungry / life! had to stop and then made plans to pick things up a week, a month, 2 months from now? But then that day comes and everyone is a little foggy on all the engrossing, captivating specific details that made that world so entertaining and enjoyable to play in. 
+  > Ever had a compelling DnD adventure with all your friends, totally into the moment, but ah! It's late / dog is hungry / life! So you all had to stop and make plans to pick things up right where you left off a week, a month, 2 months from now. But then that day comes and everyone is a little foggy on all the engrossing, captivating specific details that made that world so entertaining and enjoyable to play in. 
 
 ## Solution ##
   > Before Dungeon Master Helper, you had to take the time to get everyone caught up and in sync before actually getting into actually playing the game. Dungeon Master Helper helps with that by not only minimizing the time it takes to to get everyone on the same page but also making sure you have that tools to capture and journal all the goodies of your thrilling campaign as it runs!
