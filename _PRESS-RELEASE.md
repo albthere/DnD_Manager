@@ -17,28 +17,32 @@ Once the project moves into development, the press release can be used as a touc
  -->
  
 ## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
+  > Dungeon Master Helper
 
 ## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  > A campaign management tool for dungeon masters and tabletop enthusiasts! 
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  > 
 
 ## Problem ##
-  > Describe the problem your product solves.
+  > Ever had a compelling DnD adventure with all your friends, totally into the moment, but ah! It's late / dog is hungry / life! had to stop and then made plans to pick things up a week, a month, 2 months from now? But then that day comes and everyone is a little foggy on all the engrossing, captivating specific details that made that world so entertaining and enjoyable to play in. 
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
+  > Before Dungeon Master Helper, you had to take the time to get everyone caught up and in sync before actually getting into actually playing the game. Dungeon Master Helper helps with that by not only minimizing the time it takes to to get everyone on the same page but also making sure you have that tools to capture and journal all the goodies of your thrilling campaign as it runs!
 
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
+  > "Less of the explaining and more of the playing!" -Al
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+  > 1. From your terminal, while you're in this repo's root directory,
+  ```npm install```
+  > 2. Let's get the app up
+  ```npm run build```
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  > "Arthur tested. Merlin approved." -Ryan M.
+  > "I approve. And that's all you'll ever need." -Christian B.
 
 ## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+  > Stay tuned for updates!
