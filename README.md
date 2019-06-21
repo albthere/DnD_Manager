@@ -42,8 +42,8 @@ Once the project moves into development, the press release can be used as a touc
   ```npm run build```
 
 ## Customer Quote ##
-  > "Arthur tested. Merlin approved." -Ryan M.
-  > "I approve. And that's all you'll ever need." -Christian B.
+  1. "Arthur tested. Merlin approved." -Ryan M.
+  2. "I approve. And that's all you'll ever need." -Christian B.
 
 ## Closing and Call to Action ##
   > Stay tuned for updates!
