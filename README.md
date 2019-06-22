@@ -40,6 +40,7 @@ Once the project moves into development, the press release can be used as a touc
   ```npm install```
   > 2. Let's get the app up
   ```npm run build```
+  ```npm run start```
 
 ## Customer Quote ##
   1. "Arthur tested. Merlin approved." -Ryan M.
