@@ -1,6 +1,6 @@
 const { pool } = require('./postgres_queries.js');
 
-getCampaigns = (username, cb) => {
+const getCampaigns = (username, cb) => {
     console.log("DB:", username);
     let text = `select masterid from bard.masters where username = \'${username}\'`;
     pool.query(text, (error, results) => {
@@ -23,9 +23,20 @@ getCampaigns = (username, cb) => {
     });
 };
 
+const addCampaign = (newCampaign, cb) => {
+    // console.log("DB |", newCampaign);
+    const textToUse = `INSERT INTO bard.campaigns(masterid,lore,notes,journal,quests,loot,campaignname) VALUES (${newCampaign.masterid},\'${newCampaign.lore}\',\'${newCampaign.notes}\',\'${newCampaign.journal}\',\'${newCampaign.quests}\',\'${newCampaign.loot}\',\'${newCampaign.campaignname}\')`;
+    console.log(textToUse);
+    pool.query(textToUse, (err) => {
+        if (err) {
+            cb(err);
+        } else {
+            cb(null);
+        }
+    });
+};
 
-
-module.exports = { getCampaigns };
+module.exports = { getCampaigns, addCampaign };
 
 // CREATE TABLE bard.players (
 //     playerid SERIAL PRIMARY KEY,

@@ -25,7 +25,8 @@ CREATE TABLE bard.campaigns (
     notes Text,
     journal JSON,
     quests JSON,
-    loot JSON
+    loot JSON,
+    campaignid TEXT
 );
 
 
@@ -40,9 +41,18 @@ INSERT INTO bard.players (level,username,race,campaignid) VALUES(3,'bobawarrior'
 INSERT INTO bard.masters (username) VALUES
     ('bobawarrior');
 
-    INSERT INTO bard.campaigns (masterid,lore,notes,journal,quests,loot) VALUES
-    (1,'Spira is being attacked by Sin. People need to be sent to farplane.', 'Blitzbll season is open!', '{"beginning":"Encountered Valefor", "items":[{"name": "potion","qty": 6,"desc":"+100hp"}, {"name":"antidote","qty": 5, "desc":"cures poison"}]}','{"start":"Left Besaid Island", "goal":"Get off island, to Kilika.", "current":"Just encountered Kimahri Ronso! Testing our strength."}', 
-'{"summoner":"Get all aeons."}', '{"bangle":{"type":"mage armor","qty": 1, "raritylevel":"common"}}');
+    INSERT INTO bard.campaigns (masterid,lore,notes,journal,quests,loot,campaignname) VALUES
+    (1,'Them things behind that squishy wall are gon get you.', 'This town needs more cops.', '{"Beginning":"People gone missin.", "items":[{"name": "lights","qty": 1,"desc":"to see better"}, {"name":"flashlight","qty": 1, "desc":"to see better, mobile"}]}','{"start":"Will has gon missin!", "goal":"Find Will.", "current":"Um, where is Barbara. Have not seen here for a quick minute."}', '{"bikes":{"type":"mount","qty": 1, "raritylevel":"common"}}','Strangerer Things');
 
 INSERT INTO bard.campaigns (masterid,lore,notes,journal,quests,loot) VALUES
 (2,'Gotta catch em all.', '10 yr kid ruling the world by enslaving animals and forcing them to fight?!', '{"pokemon":["rattata","pikachu","pidgey"]}','{}','{}');
+
+"{}"
+
+{/*                     
+
+                    What's the lore and world of this campaign?
+                    Any key notes we should be aware of?
+                    Anything to put in the Journey Journal?
+                    What quests will there be?
+                    What loot items are there? */}
